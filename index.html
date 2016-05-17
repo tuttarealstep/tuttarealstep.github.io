@@ -1,1 +1,33 @@
-Hello World
+<html>
+  <head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Tuttarealstep</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/utils/font-awesome-4.6.2/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err);  });
+    </script>
+  </head>
+
+  <body>
+      <app-container>Caricamento...</app-container>
+  </body>
+  
+  <script src="assets/js/jquery-2.2.3.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</html>
