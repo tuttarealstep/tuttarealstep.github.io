@@ -35,7 +35,11 @@ body {
 /* Navbar */
 
 .navbar {
+<<<<<<< HEAD
     position: fixed;
+=======
+    position: relative;
+>>>>>>> b421c5527812adaced9f6f71110e49e4e4cf7b94
 }
 .navbar-new {
     background: #000000;
