@@ -14,9 +14,9 @@ html {
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     -webkit-font-smoothing: antialiased;
-    background-color: #ffffff;
+    background-color: #3F51B5; /* ffffff */
     /*background: url(../images/bg_photo.jpg) !important; */
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -35,11 +35,7 @@ body {
 /* Navbar */
 
 .navbar {
-<<<<<<< HEAD
     position: fixed;
-=======
-    position: relative;
->>>>>>> b421c5527812adaced9f6f71110e49e4e4cf7b94
 }
 .navbar-new {
     background: #000000;
@@ -132,7 +128,7 @@ a, a:focus, a:active {
 .about_info {
     font-weight: 400;
     font-style: italic;
-    color: #777777;
+    color: #333333; /* 777777 */
 }
 
 /* Footer */
@@ -177,7 +173,7 @@ hr {
         padding-top: 15px;
     }
     .navbar-transparent .nav li > a, .navbar-transparent .navbar-brand {
-        color: #000000;
+        color: #ffffff; /* 000000 */
     }
     .nabar-dark .nav > li > a, .nabar-dark .navbar-brand {
         color: #ffffff;
@@ -209,4 +205,8 @@ section
 {
     height: 100%;
     padding-top: 80px;
+}
+
+.list-group {
+	color: #000000;
 }
