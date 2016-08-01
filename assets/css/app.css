@@ -176,6 +176,7 @@ section
 {
     height: 100%;
     padding-top: 80px;
+    min-height: 400px;
 }
 
 /* Media */
@@ -234,6 +235,11 @@ section
     section
     {
         margin-bottom: 180px;
+    }
+
+    #contact
+    {
+        margin-top: 120px;
     }
 }
 
