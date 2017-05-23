@@ -80,7 +80,7 @@ body {
 }
 .navbar-new .nav li > a {
     position: relative;
-    color: #FFC857;
+    color: #ffc857;
 }
 .navbar-new .nav > li > a:focus, .navbar-new .nav > li > a:hover {
     background: none;
