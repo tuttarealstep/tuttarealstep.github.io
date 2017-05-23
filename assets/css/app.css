@@ -208,6 +208,11 @@ section
     {
         margin-top: 80px;
     }
+
+    .navbar-new .nav > li > a:focus, .navbar-new .nav > li > a:hover {
+       background: none;
+       color: #ffc857;
+    }
 }
 @media (max-width: 767px) {
     /* Navbar */
