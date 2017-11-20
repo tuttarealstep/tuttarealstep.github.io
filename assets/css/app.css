@@ -76,7 +76,7 @@ body {
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 2px;
+    margin-top: -2px;
 }
 .navbar-new .nav li > a {
     position: relative;
